@@ -1,0 +1,99 @@
+{
+  "notFound": {
+    "title": "... 404 ошибка ...\n",
+    "subtitle": "Извините страница не найдена",
+    "text": "Перейдите на главную страницу чтобы узнать больше обо мне или напишите мне"
+  },
+  "inProgress": "Разрабатывается",
+  "homePage": "Главная страница",
+  "move": "Перейти",
+  "anchors": [
+    {
+      "name": "Обо мне",
+      "href": "/#about"
+    },
+    {
+      "name": "Навыки",
+      "href": "/#skills"
+    },
+    {
+      "name": "Проекты",
+      "href": "/#projects"
+    }
+  ],
+  "about": "Обо мне",
+  "aboutText": "Я — 20-летний фронтенд-разработчик, живу в России, Новосибирске. Занимаюсь разработкой уже более двух лет и большую часть своего времени посвящаю самосовершенствованию и созданию собственных проектов. Моя основная цель — получение новых знаний в программировании, а также углубление в уже полученные знания.",
+  "aboutButton": "Проекты",
+  "skills": "Навыки",
+  "skillsText": [
+    "JavaScript, TypeScript",
+    "CSS, SCSS, Tailwind",
+    "React, NextJS",
+    "Redux, RTK, Zustand",
+    "NodeJS",
+    "Express",
+    "PostgreSQL",
+    "Docker",
+    "Figma",
+    "Git"
+  ],
+  "project": "Проект",
+  "see": "Посмотреть",
+  "code": "код",
+  "contact": "Связаться",
+  "projects": [
+    {
+      "name": "Онлайн школы – WhiteCrow",
+      "skills": ["TypeScript", "React", "TailwindCSS", "Zustand", "Strapi CMS"],
+      "github": "https://github.com/xN8Tx/whitecrow",
+      "link": "https://whitecrow.shteyn-web.ru",
+      "image": "/projects/whitecrow.png"
+    },
+    {
+      "name": "Мессенджер – Blossom",
+      "skills": [
+        "TypeScript",
+        "React",
+        "RTK",
+        "WebSocket",
+        "Express",
+        "JWT",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com/xN8Tx/blossom",
+      "link": "",
+      "image": "/projects/blossom.png"
+    },
+    {
+      "name": "Онлайн магазин – Bayersha",
+      "skills": ["TypeScript", "NextJS", "Strapi CMS"],
+      "github": "",
+      "link": "https://bayersha.ru",
+      "image": "/projects/bayersha.png"
+    },
+    {
+      "name": "Корпоративный сайт – Topy",
+      "skills": ["TypeScript", "NextJS", "TailwindCSS", "Strapi CMS"],
+      "link": "https://topy.shteyn-web.ru",
+      "image": "/projects/topy.png"
+    }
+  ],
+  "demo": "демо",
+  "contactData": [
+    {
+      "name": "Гитхаб",
+      "href": "https://github.com/xN8Tx",
+      "icon": "git"
+    },
+    {
+      "name": "Телеграм",
+      "href": "https://t.me/shteyn-web",
+      "icon": "tg"
+    },
+    {
+      "name": "Почта",
+      "href": "mailto:eveniyshteyn@ya.ru",
+      "icon": "mail"
+    }
+  ]
+}

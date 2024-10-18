@@ -1,0 +1,27 @@
+.concept {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 120px;
+
+  &__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: calc(64px + (50 + 50 * 0.7) * (100vw - 320px) / 1400);
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    transform: translateY(500px);
+
+    &_container {
+      overflow: hidden;
+      padding: 20px 0;
+    }
+  }
+}

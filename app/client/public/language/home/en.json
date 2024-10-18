@@ -1,0 +1,99 @@
+{
+  "notFound": {
+    "title": "... 404 error ...",
+    "subtitle": "Sorry, page not found",
+    "text": "Go to home page to know more about me or direct me"
+  },
+  "inProgress": "In progress",
+  "homePage": "Home page",
+  "move": "Move",
+  "anchors": [
+    {
+      "name": "About me",
+      "href": "/#about"
+    },
+    {
+      "name": "Skills",
+      "href": "/#skills"
+    },
+    {
+      "name": "Projects",
+      "href": "/#projects"
+    }
+  ],
+  "about": "About me",
+  "aboutText": "I'm a 20 y.o frontend developer living in Russia, Novosibirsk. I have been doing that more then two years and I devote most of my time self-improvement and develop my own projects. My main goal is to get new knowledge in programming. Deepen the knowledge already gained.",
+  "aboutButton": "Projects",
+  "skills": "Skills",
+  "skillsText": [
+    "JavaScript, TypeScript",
+    "CSS, SCSS, Tailwind",
+    "React, NextJS",
+    "Redux, RTK, Zustand",
+    "NodeJS",
+    "Express",
+    "PostgreSQL",
+    "Docker",
+    "Figma",
+    "Git"
+  ],
+  "project": "Project",
+  "see": "See",
+  "code": "code",
+  "contact": "Contact",
+  "projects": [
+    {
+      "name": "Online school – WhiteCrow",
+      "skills": ["TypeScript", "React", "TailwindCSS", "Zustand", "Strapi CMS"],
+      "github": "https://github.com/xN8Tx/whitecrow",
+      "link": "https://whitecrow.shteyn-web.ru",
+      "image": "/projects/whitecrow.png"
+    },
+    {
+      "name": "Messenger – Blossom",
+      "skills": [
+        "TypeScript",
+        "React",
+        "RTK",
+        "WebSocket",
+        "Express",
+        "JWT",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com/xN8Tx/blossom",
+      "link": "",
+      "image": "/projects/blossom.png"
+    },
+    {
+      "name": "Online Shop – Bayersha",
+      "skills": ["TypeScript", "NextJS", "Strapi CMS"],
+      "github": "",
+      "link": "https://bayersha.ru",
+      "image": "/projects/bayersha.png"
+    },
+    {
+      "name": "Company site – Topy",
+      "skills": ["TypeScript", "NextJS", "TailwindCSS", "Strapi CMS"],
+      "link": "https://topy.shteyn-web.ru",
+      "image": "/projects/topy.png"
+    }
+  ],
+  "demo": "demo",
+  "contactData": [
+    {
+      "name": "Github",
+      "href": "https://github.com/xN8Tx",
+      "icon": "git"
+    },
+    {
+      "name": "Telegram",
+      "href": "https://t.me/shteyn-web",
+      "icon": "tg"
+    },
+    {
+      "name": "Mail",
+      "href": "mailto:eveniyshteyn@ya.ru",
+      "icon": "mail"
+    }
+  ]
+}

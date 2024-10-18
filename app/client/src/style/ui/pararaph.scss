@@ -1,0 +1,32 @@
+.ui-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+
+  // Color
+  &.default {
+    color: var(--text);
+  }
+
+  &.light {
+    color: var(--light-text);
+  }
+
+  &.background {
+    color: var(--background);
+  }
+
+  // Size
+  &.regular {
+    font-size: 18px;
+  }
+
+  &.large {
+    font-weight: 800;
+    font-size: calc(35px + (10 + 10 * 0.7) * (100vw - 320px) / 1400);
+  }
+
+  &.small {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,17 @@
+.fill {
+  color: var(--text);
+}
+
+.stroke {
+  color: var(--text);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 5px var(--text);
+
+  @media (max-width: 767px) {
+    -webkit-text-stroke: 4px var(--text);
+  }
+
+  @media (max-width: 428px) {
+    -webkit-text-stroke: 3px var(--text);
+  }
+}

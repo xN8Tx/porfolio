@@ -1,0 +1,186 @@
+.ui-link {
+  &__button {
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 40px;
+
+    &>a {
+      width: 100%;
+      height: 100%;
+      display: block;
+
+      position: relative;
+
+      &:hover {
+        &>:nth-child(2) {
+          transform: translateY(-100%);
+          opacity: 1;
+        }
+      }
+
+      &>p {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        left: 0;
+
+        &:nth-child(1) {
+          top: 0;
+        }
+
+        &:nth-child(2) {
+          opacity: 0;
+          transition: all ease-in 0.4s;
+
+          border-radius: 30px;
+
+          top: 100%;
+        }
+      }
+    }
+
+    // Color
+    &.default {
+      border: 1px solid var(--text);
+
+      &>a {
+        color: var(--background);
+
+        &>p {
+          &:nth-child(1) {
+            color: var(--text);
+          }
+
+          &:nth-child(2) {
+            background-color: var(--text);
+            color: var(--background);
+          }
+        }
+      }
+    }
+
+
+    &.background {
+      border: 1px solid var(--background);
+
+      &>a {
+        color: var(--text);
+
+        &>p {
+          &:nth-child(1) {
+            color: var(--background);
+          }
+
+          &:nth-child(2) {
+            background-color: var(--background);
+            color: var(---text);
+          }
+        }
+      }
+    }
+
+    &.light {
+      border: 1px solid var(--light-text);
+
+      &>a {
+        color: var(--light-text);
+
+        &>p {
+          &:nth-child(1) {
+            color: var(--light-text);
+          }
+
+          &:nth-child(2) {
+            background-color: var(--light-text);
+            color: var(---light-background);
+          }
+        }
+      }
+    }
+
+    // Size
+    &.regular {
+      width: 215px;
+      height: 50px;
+      border-radius: 30px;
+
+      &>a {
+        @include RegularText;
+      }
+    }
+
+    &.large {
+      width: 250px;
+      height: 55px;
+      border-radius: 30px;
+
+      &>a {
+        @include LargeText;
+      }
+
+    }
+
+    &.small {
+      width: 180px;
+      height: 35px;
+      border-radius: 20px;
+
+      &>a {
+        @include SmallText;
+      }
+    }
+  }
+
+  &__link {
+    position: relative;
+
+    opacity: 0.8;
+
+    transition: all ease-in 0.3s;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    // Hover effect
+    &.hover {
+      @include anchorMixin;
+    }
+
+    // Color
+    &.default {
+      color: var(--text);
+    }
+
+    &.light {
+      color: var(--light-text);
+    }
+
+    &.background {
+      color: var(--background);
+    }
+
+    // Size
+    &.regular {
+      @include RegularText;
+    }
+
+    &.large {
+      @include LargeText;
+    }
+
+    &.small {
+      @include SmallText;
+    }
+
+    &.uppercase {
+      text-transform: uppercase;
+    }
+  }
+}
