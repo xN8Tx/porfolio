@@ -1,0 +1,13 @@
+{
+  "NotFound": {
+    "title": "... 404 error ...",
+    "subtitle": "Sorry, page not found",
+    "text": "Go to home page to know more about me or direct me",
+    "move": "Move",
+    "homePage": "Home page"
+  },
+  "Projects": {
+    "demo": "See demo",
+    "notAvailable": "Demo not available"
+  }
+}

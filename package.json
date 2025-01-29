@@ -4,9 +4,9 @@
   "version": "2.0.0",
   "description": "✨My portfolio site based on TypeScript and NextJS.",
   "scripts": {
-    "dev": "docker compose -f ./config/dev/docker-compose.yml up --build",
-    "start": "docker compose -f ./config/prod/docker-compose.yml up --build",
-    "prod": "docker compose -f ./config/prod/docker-compose.yml build && docker-compose -f ./config/docker/prod/docker-compose.yml up -d"
+    "dev": "docker compose -f ./config/dev/docker-compose.yaml up --build",
+    "start": "docker compose -f ./config/prod/strapi/docker-compose.yaml up --build",
+    "prod": "sudo docker compose -f ./config/prod/strapi/docker-compose.yaml up -d"
   },
   "keywords": [],
   "author": "Evgeniy Shteyn <evgeniyshteyn@ya.ru> (https://shteyn-web.ru)"
