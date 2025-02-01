@@ -18,7 +18,7 @@ const Footer = (props: StrapiFooter) => {
           </nav>
         </div>
         <div className="footer__row_item">
-          <Paragraph size="small">
+          <Paragraph size="small" style={{ display: "flex", gap: "3px" }}>
             Icons by{" "}
             <Link
               isExternal={true}

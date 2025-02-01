@@ -1,0 +1,41 @@
+services:
+  strapi:
+    container_name: portfolio-strapi-dev
+    build:
+      context: ../../app/strapi
+      dockerfile: Dockerfile.dev
+    restart: always
+    volumes:
+      - ../../app/strapi/src:/opt/app/src
+      - ../../app/strapi/public:/opt/app/public
+      - ../../app/strapi/config:/opt/app/config
+      - ../../app/strapi/types:/opt/app/types
+      - ../../app/strapi/.tmp:/opt/app/.tmp
+    expose:
+      - 1337
+    ports:
+      - 1337:1337
+    networks:
+      - portfolio
+  #client:
+  #  container_name: portfolio-client-dev
+  #  build:
+  #    context: ../../app/client
+  #    dockerfile: Dockerfile.dev
+  #  restart: always
+  #  volumes:
+  #    - ../../app/client/.next:/opt/app/.next
+  #    - ../../app/client/public:/opt/app/public
+  #    - ../../app/client/src:/opt/app/src
+  #    - ../../app/client/messages:/opt/app/messages
+  #    - ../../app/client/coverage:/opt/app/coverage
+  #  expose:
+  #    - 3000
+  #  ports:
+  #    - 3000:3000
+  #  networks:
+  #    - portfolio
+networks:
+  portfolio:
+    name: ShteynPortfolio
+    driver: bridge

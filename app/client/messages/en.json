@@ -9,5 +9,29 @@
   "Projects": {
     "demo": "See demo",
     "notAvailable": "Demo not available"
+  },
+  "Error": {
+    "400": {
+      "title": "Bad request.",
+      "subtitle": "Try visiting the homepage or come back later. If the error persists, please contact me."
+    },
+    "401": {
+      "title": "Unauthorized.",
+      "subtitle": "If you believe this is a mistake, please contact me."
+    },
+    "403": {
+      "title": "Access denied.",
+      "subtitle": "If you believe this is a mistake, please contact me."
+    },
+    "404": {
+      "title": "Sorry, the page was not found",
+      "subtitle": "Go to the homepage to learn more about me or contact me."
+    },
+    "500": {
+      "title": "Sorry, something went wrong.",
+      "subtitle": "An error occurred on our server. Please try again later. If the error persists, please contact me."
+    },
+    "move": "Move",
+    "homePage": "Home page"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.link"
+    }
+  }
+}

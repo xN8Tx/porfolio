@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+
 const useIcon = (icon: string | null) => {
   const { theme } = useTheme();
   const [selectedIcon, setSelectedIcon] = useState<JSON | null>(null);
@@ -9,11 +10,11 @@ const useIcon = (icon: string | null) => {
     if (!icon) return;
 
     const getIcon = async () => {
-      const importIcon = await import(
-        `../../assets/lottie/${theme}/${icon}.json`
-      );
+      const response = await fetch(`/lottie/${theme}/${icon}.json`);
+      const json: JSON = await response.json();
+      if (!json) return;
 
-      setSelectedIcon(importIcon);
+      setSelectedIcon(json);
     };
 
     getIcon();

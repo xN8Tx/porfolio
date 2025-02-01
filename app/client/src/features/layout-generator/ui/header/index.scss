@@ -88,7 +88,8 @@
 
   &__burger {
     &-menu {
-      width: 100%;
+      width: 100dvw;
+      height: 100dvh;
 
       position: absolute;
       top: 0;
@@ -114,7 +115,7 @@
 
       &__wrapper {
         width: 70%;
-        height: calc(100% - 180px);
+        height: calc(100dvh - 180px);
 
         display: flex;
         flex-direction: column;
@@ -154,19 +155,8 @@
           }
         }
 
-        & a {
-          width: auto;
-          opacity: 0.8;
-
-          transition: all ease-in 0.3s;
-
-          display: flex;
-          align-items: center;
-          gap: 10px;
-
-          &:hover {
-            opacity: 1;
-          }
+        a {
+          width: fit-content;
         }
       }
     }
@@ -284,17 +274,19 @@
 }
 
 #site-logo {
-  position: absolute;
-  left: 0;
-  z-index: 9999;
+  &>div {
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+  }
 
-  &>path {
+  &>div>svg>path {
     fill: var(--text);
     transition: all ease-in 1s;
   }
 
   &[data-isloader="true"] {
-    &>path {
+    &>div>svg>path {
       fill: var(--background);
     }
   }

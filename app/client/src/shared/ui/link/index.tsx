@@ -33,8 +33,6 @@ const Link = ({
   icon,
   ...props
 }: LinkProps) => {
-  const { theme } = useTheme();
-
   const [isLinkHover, setIsLinkHover] = useState(false);
 
   const lottieRef = useRef(null);

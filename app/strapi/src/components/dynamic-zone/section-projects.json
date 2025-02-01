@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_dynamic_zone_section_projects",
+  "info": {
+    "displayName": "Section - Projects",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project",
+      "required": true
+    },
+    "componentId": {
+      "type": "string"
+    }
+  }
+}

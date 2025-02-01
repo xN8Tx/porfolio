@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_page_properties_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "attributes": {
+      "displayName": "Attribute",
+      "type": "component",
+      "repeatable": true,
+      "component": "page-properties.attribute"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "preventIndexing": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

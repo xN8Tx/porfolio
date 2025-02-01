@@ -4,10 +4,11 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
 import { routing } from "@/i18n/routing";
+import { getMetadata } from "@/shared/lib";
 
 import { LayoutGenerator } from "@/features/layout-generator";
 import { Loader, SuspenceFallback } from "@/widgets";
-import { Provider } from "./provider";
+import { Provider } from "../provider";
 
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import "@/styles/index.scss";
@@ -16,7 +17,13 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export const generateMetadata = async () => {};
+export const generateMetadata = async ({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) => {
+  return await getMetadata("homepage", locale);
+};
 
 const RootLayout = async ({
   children,
@@ -35,7 +42,7 @@ const RootLayout = async ({
   return (
     <html lang={locale}>
       <body>
-        <Provider messages={messages}>
+        <Provider locale={locale} messages={messages}>
           <Loader />
           <Suspense fallback={<SuspenceFallback />}></Suspense>
           <LayoutGenerator locale={locale}>{children}</LayoutGenerator>

@@ -1,4 +1,4 @@
-@mixin anchorMixin {
+@mixin AnchorMixin {
   position: relative;
 
   &:hover {
@@ -15,7 +15,7 @@
 
     position: absolute;
     right: 0;
-    bottom: -1px;
+    bottom: -2px;
 
     width: 0;
     height: 1px;

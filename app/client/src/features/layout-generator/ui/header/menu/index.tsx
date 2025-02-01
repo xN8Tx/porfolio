@@ -12,11 +12,7 @@ interface MenuProps {
 
 const Menu = ({ isOpen, links, menuLinks }: MenuProps) => {
   return (
-    <div
-      className="header__burger-menu"
-      data-isopen={isOpen.toString()}
-      style={{ height: `100vh` }}
-    >
+    <div className="header__burger-menu" data-isopen={isOpen.toString()}>
       <div className="header__burger-menu__wrapper">
         <div className="header__burger-menu__navigation">
           {links.map((link) => (

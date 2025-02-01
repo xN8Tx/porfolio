@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_properties_attributes",
+  "info": {
+    "displayName": "Attribute",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

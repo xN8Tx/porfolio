@@ -1,0 +1,14 @@
+services:
+  strapi:
+    container_name: portfolio-strapi-prod
+    build:
+      context: ../../../app/strapi
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ../../../app/strapi/public:/opt/app/public
+      - ../../app/strapi/.tmp:/opt/app/.tmp
+    expose:
+      - 1337
+    ports:
+      - 1337:1337
