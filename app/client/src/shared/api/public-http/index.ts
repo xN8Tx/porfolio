@@ -1,5 +1,5 @@
-import { RequestMethodParametrs, StrapiResponse } from "../types";
-import { HTTP } from "./http";
+import { RequestMethodParametrs, StrapiResponse } from "@/shared/types";
+import { HTTP } from "../http";
 
 class PublicHttp extends HTTP {
   constructor() {
