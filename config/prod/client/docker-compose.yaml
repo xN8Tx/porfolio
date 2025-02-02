@@ -1,0 +1,11 @@
+services:
+  client:
+    container_name: portfolio-client-prod
+    build:
+      context: ../../../app/client
+      dockerfile: Dockerfile
+    restart: always
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
