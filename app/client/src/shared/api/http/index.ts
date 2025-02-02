@@ -6,7 +6,7 @@ import type {
   CreateRequestInitMethodParametrs,
   HTTPQuery,
   RequestMethodParametrs,
-} from "../types";
+} from "@/shared/types";
 
 const API_URL = process.env.API_URL ?? "http://localhost:1337/api";
 
@@ -92,14 +92,16 @@ export class HTTP {
         // Another errors code handlers
         if (message in statusTextByCode) {
           throw new Error(
-            statusTextByCode[message as keyof typeof statusTextByCode],
+            statusTextByCode[
+              message as keyof typeof statusTextByCode
+            ].toString(),
           );
         }
 
         console.error("[HTTP] Error message:", message);
       }
 
-      throw new Error(statusTextByCode[500]);
+      throw new Error(statusTextByCode[500].toString());
     }
   };
 }

@@ -1,13 +1,12 @@
+import type { Metadata } from "next";
 import type {
   StrapiAttribute,
   StrapiSeo,
   StrapiMedia,
   StrapiPages,
 } from "@/shared/types";
-import type { Metadata } from "next";
 
 import { notFound } from "next/navigation";
-
 import { publicHTTP } from "@/shared/api";
 
 const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL;
@@ -25,7 +24,7 @@ const createAttributes = (attributes: StrapiAttribute[]) => {
   return other;
 };
 
-const createMetadata = (seo: StrapiSeo): Metadata => {
+export const createMetadata = (seo: StrapiSeo): Metadata => {
   return {
     title: seo.title,
     description: seo.description,

@@ -1,4 +1,4 @@
-import { HTTP } from "./http";
+import { HTTP } from "./";
 
 const API_URL = process.env.API_URL ?? "http://localhost:1337/api";
 global.fetch = jest.fn();
@@ -82,9 +82,7 @@ describe("HTTP - requestHandler", () => {
 
     await expect(
       http["requestHandler"]({ uri: "/test", method: "GET" }),
-    ).rejects.toThrow(
-      "Извините, не удалось выполнить запрос. Попробуйте перезагрузить страницу, если это не помогло обратитесь к администратору.",
-    );
+    ).rejects.toThrow("400");
   });
 
   it("should handle server errors gracefully", async () => {
@@ -95,6 +93,6 @@ describe("HTTP - requestHandler", () => {
 
     await expect(
       http["requestHandler"]({ uri: "/test", method: "GET" }),
-    ).rejects.toThrow("Извините, что-то пошло не так. Попробуйте позже.");
+    ).rejects.toThrow("500");
   });
 });
