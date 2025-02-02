@@ -22,6 +22,8 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
             cd ${{ secrets.DEPLOY_PATH }}
-            chmod +x start.sh
+            git reset --hard origin/main  
+            git pull origin main          
+            chmod +x start.sh             
             ./start.sh 
           EOF
