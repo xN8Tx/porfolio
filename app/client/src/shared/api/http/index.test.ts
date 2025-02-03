@@ -1,6 +1,6 @@
 import { HTTP } from "./";
 
-const API_URL = process.env.API_URL ?? "http://localhost:1337/api";
+const API_URL = process.env.STRAPI_API_URL ?? "http://localhost:1337/api";
 global.fetch = jest.fn();
 const http = new HTTP();
 

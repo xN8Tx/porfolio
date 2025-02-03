@@ -8,7 +8,7 @@ import type {
   RequestMethodParametrs,
 } from "@/shared/types";
 
-const API_URL = process.env.API_URL ?? "http://localhost:1337/api";
+const API_URL = process.env.STRAPI_API_URL ?? "http://localhost:1337/api";
 
 const statusTextByCode = {
   "400": 400,
