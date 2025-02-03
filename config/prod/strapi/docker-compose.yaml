@@ -7,7 +7,7 @@ services:
     restart: always
     volumes:
       - ../../../app/strapi/public:/opt/app/public
-      - ../../app/strapi/.tmp:/opt/app/.tmp
+      - ../../../app/strapi/.tmp:/opt/app/.tmp
     expose:
       - 1337
     ports:
