@@ -12,6 +12,7 @@ type LinkProps = UICommonProps &
     subtitle: string;
     isExternal: boolean;
     uppercase?: boolean;
+    buttonProps?: React.ComponentProps<"button">;
   };
 
 const Button = ({
@@ -23,28 +24,31 @@ const Button = ({
   subtitle,
   children,
   href,
+  buttonProps,
   ...props
 }: LinkProps) => {
   return (
-    <div
+    <button
       className={cn(
         "ui-link__button hover",
         size,
         color,
-        uppercase && uppercase,
+        uppercase && "uppercase",
         className,
       )}
-      typeof="button"
+      data-testid="ui-button_button"
+      {...buttonProps}
     >
       <LocaleLink
         target={isExternal ? "_blank" : "_self"}
         href={href ?? "#"}
+        data-testid="ui-button_link"
         {...props}
       >
-        <p>{children}</p>
-        <p>{subtitle}</p>
+        <p data-testid="ui-button_paragraph">{children}</p>
+        <p data-testid="ui-button_subtitle">{subtitle}</p>
       </LocaleLink>
-    </div>
+    </button>
   );
 };
 

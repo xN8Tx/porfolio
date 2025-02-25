@@ -14,6 +14,7 @@ const statusTextByCode = {
   "400": 400,
   "401": 401,
   "403": 403,
+  "404": 404,
   "500": 500,
 };
 
@@ -83,7 +84,7 @@ export class HTTP {
     } catch (error) {
       if (error instanceof Error) {
         const message = error.message;
-
+        console.log("[TEST] Message:", message);
         // Not found handler
         if (message === "404") {
           notFound();

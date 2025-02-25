@@ -41,7 +41,7 @@ const RootLayout = async ({
 
   return (
     <html lang={locale}>
-      <body>
+      <body style={{ overflowY: "hidden" }}>
         <Provider locale={locale} messages={messages}>
           <Loader />
           <Suspense fallback={<SuspenceFallback />}></Suspense>

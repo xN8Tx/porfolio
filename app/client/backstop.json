@@ -1,0 +1,204 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "label": "laptop",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "label": "fullhd",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "UI/Button Regular | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-button--regular&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Button Small | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-button--small&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Button Large | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-button--large&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Button Light | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-button--light-color&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Button Regular | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-button--regular&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Button Small | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-button--small&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Button Large | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-button--large&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Button Light | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-button--light-color&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Heading Regular | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-heading--regular&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Heading Large | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-heading--large&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Heading Small | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-heading--small&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Heading Regular | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-heading--regular&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Heading Large | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-heading--large&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Heading Small | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-heading--small&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Paragraph Regular | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-paragraph--regular&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Paragraph Large | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-paragraph--large&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Paragraph Small | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-paragraph--small&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Paragraph Regular | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-paragraph--regular&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Paragraph Large | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-paragraph--large&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Paragraph Small | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-paragraph--small&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Link Regular | Dark mode",
+      "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-link--regular&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "UI/Link Regular | Light mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-link--regular&viewMode=story",
+      "selectors": ["document"],
+      "delay": 3000,
+      "misMatchThreshold": 0.1
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

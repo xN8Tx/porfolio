@@ -4,6 +4,7 @@
     cursor: pointer;
     overflow: hidden;
     margin-top: 40px;
+    background: transparent;
 
     &>a {
       width: 100%;
@@ -18,6 +19,8 @@
           opacity: 1;
         }
       }
+
+
 
       &>p {
         width: 100%;
@@ -37,6 +40,7 @@
         &:nth-child(2) {
           opacity: 0;
           transition: all ease-in 0.4s;
+          box-sizing: border-box;
 
           border-radius: 30px;
 
@@ -78,6 +82,7 @@
           }
 
           &:nth-child(2) {
+            border: 1px solid var(--background);
             background-color: var(--background);
             color: var(---text);
           }
@@ -97,8 +102,9 @@
           }
 
           &:nth-child(2) {
+            border: 1px solid var(--light-text);
             background-color: var(--light-text);
-            color: var(---light-background);
+            color: var(--light-background);
           }
         }
       }
@@ -133,6 +139,12 @@
 
       &>a {
         @include SmallText;
+      }
+    }
+
+    &.uppercase {
+      &>a p {
+        text-transform: uppercase;
       }
     }
   }

@@ -14,7 +14,7 @@ interface ProviderProps {
 export const Provider = ({ children, messages, locale }: ProviderProps) => {
   return (
     <NextIntlClientProvider messages={messages} locale={locale}>
-      <ThemeProvider>
+      <ThemeProvider defaultTheme="dark">
         <LocomotiveProvider>{children}</LocomotiveProvider>
       </ThemeProvider>
     </NextIntlClientProvider>

@@ -14,7 +14,11 @@ const Heading = ({
   ...props
 }: HeadingProps) => {
   return (
-    <h3 className={cn("ui-heading", size, color, className)} {...props}>
+    <h3
+      data-testid="ui-heading"
+      className={cn("ui-heading", size, color, className)}
+      {...props}
+    >
       {children}
     </h3>
   );

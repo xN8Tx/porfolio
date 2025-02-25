@@ -16,6 +16,7 @@ const Paragraph = forwardRef<HTMLParagraphElement, ParagraphProps>(
   ) {
     return (
       <p
+        data-testid="ui-paragraph"
         className={cn("ui-paragraph", size, color, className)}
         ref={ref}
         {...props}

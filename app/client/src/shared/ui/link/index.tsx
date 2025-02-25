@@ -3,7 +3,6 @@ import type { DetailedHTMLProps, AnchorHTMLAttributes } from "react";
 import type { StrapiIcons, UICommonProps } from "@/shared/types";
 
 import { useEffect, useRef, useState } from "react";
-import { useTheme } from "next-themes";
 
 import Lottie from "react-lottie-player";
 
@@ -57,6 +56,7 @@ const Link = ({
 
   return (
     <LocaleLink
+      data-testid="ui-link"
       href={href ?? "#"}
       className={cn(
         "ui-link__link",
@@ -72,6 +72,7 @@ const Link = ({
     >
       {animationData && (
         <Lottie
+          data-testid="ui-link_icon"
           ref={lottieRef}
           play={isLinkHover}
           animationData={animationData}
