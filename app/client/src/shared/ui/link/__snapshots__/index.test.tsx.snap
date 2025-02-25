@@ -5,6 +5,11 @@ exports[`UI/Link Testing should render with background 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
       <a
         class="ui-link__link regular background"
         data-testid="ui-link"
@@ -16,6 +21,11 @@ exports[`UI/Link Testing should render with background 1`] = `
     </div>
   </body>,
   "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
     <a
       class="ui-link__link regular background"
       data-testid="ui-link"
@@ -84,6 +94,11 @@ exports[`UI/Link Testing should render with default 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
       <a
         class="ui-link__link regular default"
         data-testid="ui-link"
@@ -95,6 +110,11 @@ exports[`UI/Link Testing should render with default 1`] = `
     </div>
   </body>,
   "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
     <a
       class="ui-link__link regular default"
       data-testid="ui-link"
@@ -163,6 +183,11 @@ exports[`UI/Link Testing should render with large 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
       <a
         class="ui-link__link large default"
         data-testid="ui-link"
@@ -174,6 +199,11 @@ exports[`UI/Link Testing should render with large 1`] = `
     </div>
   </body>,
   "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
     <a
       class="ui-link__link large default"
       data-testid="ui-link"
@@ -242,6 +272,11 @@ exports[`UI/Link Testing should render with light 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
       <a
         class="ui-link__link regular light"
         data-testid="ui-link"
@@ -253,6 +288,11 @@ exports[`UI/Link Testing should render with light 1`] = `
     </div>
   </body>,
   "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
     <a
       class="ui-link__link regular light"
       data-testid="ui-link"
@@ -321,6 +361,11 @@ exports[`UI/Link Testing should render with regular 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
       <a
         class="ui-link__link regular default"
         data-testid="ui-link"
@@ -332,6 +377,11 @@ exports[`UI/Link Testing should render with regular 1`] = `
     </div>
   </body>,
   "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
     <a
       class="ui-link__link regular default"
       data-testid="ui-link"
@@ -400,6 +450,11 @@ exports[`UI/Link Testing should render with small 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
       <a
         class="ui-link__link small default"
         data-testid="ui-link"
@@ -411,6 +466,11 @@ exports[`UI/Link Testing should render with small 1`] = `
     </div>
   </body>,
   "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
     <a
       class="ui-link__link small default"
       data-testid="ui-link"
@@ -479,6 +539,11 @@ exports[`UI/Link Testing should render with uppercase 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
       <a
         class="ui-link__link regular default uppercase"
         data-testid="ui-link"
@@ -490,6 +555,11 @@ exports[`UI/Link Testing should render with uppercase 1`] = `
     </div>
   </body>,
   "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
     <a
       class="ui-link__link regular default uppercase"
       data-testid="ui-link"

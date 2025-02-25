@@ -2,13 +2,11 @@ import type { Preview } from "@storybook/react";
 
 import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "next-themes";
-import { ThemeSwitcher } from "./ThemeSwitcher";
 
 import defaultMessages from "../messages/en.json";
 
 import "../src/styles/index.scss";
 import "./global.css";
-import { useEffect } from "react";
 
 const preview: Preview = {
   parameters: {

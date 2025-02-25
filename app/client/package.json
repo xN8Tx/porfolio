@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "test": "jest",
-    "storybook:dev": "storybook dev -p 6006",
-    "storybook:build": "storybook build",
-    "backstop:test": "backstop test --config backstop.json && pkill -f 'yarn storybook:dev'",
-    "backstop:build": "backstop reference --config backstop.json"
+    "dev": "NODE_ENV=development next dev",
+    "build": "NODE_ENV=production next build",
+    "start": "NODE_ENV=production next start",
+    "lint": "NODE_ENV=test next lint",
+    "test": "NODE_ENV=test jest",
+    "storybook:dev": "NODE_ENV=test storybook dev -p 6006",
+    "storybook:build": "NODE_ENV=test storybook build",
+    "backstop:test": "NODE_ENV=test backstop test --config backstop.json && pkill -f 'yarn storybook:dev'",
+    "backstop:build": "NODE_ENV=test backstop reference --config backstop.json"
   },
   "dependencies": {
     "clsx": "^2.1.1",

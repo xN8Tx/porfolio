@@ -7,7 +7,10 @@ interface ImageProps extends StrapiMedia {
   className?: string;
 }
 
-const PUBLIC_URL = process.env.NEXT_PUBLIC_STRAPI_URL;
+const PUBLIC_URL =
+  process.env.NODE_ENV === "test"
+    ? process.env.NEXT_PUBLIC_STRAPI_URL
+    : "https://cms.shteyn-web.ru";
 
 export const Image = (props: ImageProps) => {
   if (!props.mime.startsWith("image")) {

@@ -183,6 +183,62 @@
       "selectors": ["document"],
       "delay": 3000,
       "misMatchThreshold": 0.1
+    },
+    {
+      "label": "Page Generator/Hero | Dark Mode",
+      "url": "http://localhost:6006/iframe.html?globals=&id=page-generator-hero--primary&viewMode=story",
+      "selectors": ["document"],
+      "delay": 4000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "Page Generator/Hero | Light Mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&id=page-generator-hero--primary&viewMode=story",
+      "selectors": ["document"],
+      "delay": 4000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "Page Generator/Section Skills | Dark Mode",
+      "url": "http://localhost:6006/iframe.html?globals=&id=page-generator-section-skills--primary&viewMode=story",
+      "selectors": ["document"],
+      "delay": 4000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "Page Generator/Section Skills | Light Mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&id=page-generator-section-skills--primary&viewMode=story",
+      "selectors": ["document"],
+      "delay": 4000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "Page Generator/Section Projects | Dark Mode",
+      "url": "http://localhost:6006/iframe.html?globals=&id=page-generator-section-projects--primary&viewMode=story",
+      "selectors": ["document"],
+      "delay": 4000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "Page Generator/Section Projects | Light Mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&id=page-generator-section-projects--primary&viewMode=story",
+      "selectors": ["document"],
+      "delay": 4000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "Page Generator/Section Text | Dark Mode",
+      "url": "http://localhost:6006/iframe.html?globals=&id=page-generator-section-text--primary&viewMode=story",
+      "selectors": ["document"],
+      "delay": 4000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "Page Generator/Section Text | Light Mode",
+      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&id=page-generator-section-text--primary&viewMode=story",
+      "selectors": ["document"],
+      "delay": 4000,
+      "misMatchThreshold": 0.1
     }
   ],
   "paths": {

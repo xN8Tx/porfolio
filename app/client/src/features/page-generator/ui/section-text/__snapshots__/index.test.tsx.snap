@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Generator/Section Text should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
+      <section
+        class="about"
+        data-scroll-section="true"
+        data-testid="page-text"
+        id="section-text"
+      >
+        <h3
+          class="ui-heading small light"
+          data-testid="page-text_title"
+        >
+          Projects
+        </h3>
+        <p
+          class="ui-paragraph large default"
+          data-scroll="true"
+          data-testid="page-text_content"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus dictum iaculis. Proin suscipit lorem porttitor odio gravida rhoncus. Praesent a sollicitudin massa. Curabitur convallis volutpat efficitur. Donec auctor rhoncus magna non consequat. Aenean sodales lacinia lorem, sit amet porttitor nibh laoreet ut. Vivamus eleifend sit amet turpis eu cursus. Nulla consequat purus lorem, quis faucibus ipsum lobortis nec. Vivamus vel mauris eget libero consectetur tincidunt. Nulla nibh libero, condimentum quis eros in, dictum suscipit quam.
+        </p>
+        <button
+          class="ui-link__button hover regular default"
+          data-testid="ui-button_button"
+        >
+          <a
+            data-testid="page-text_button"
+            href="#"
+            target="_self"
+          >
+            <p
+              data-testid="ui-button_paragraph"
+            >
+              See more
+            </p>
+            <p
+              data-testid="ui-button_subtitle"
+            >
+              Projects
+            </p>
+          </a>
+        </button>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
+    <section
+      class="about"
+      data-scroll-section="true"
+      data-testid="page-text"
+      id="section-text"
+    >
+      <h3
+        class="ui-heading small light"
+        data-testid="page-text_title"
+      >
+        Projects
+      </h3>
+      <p
+        class="ui-paragraph large default"
+        data-scroll="true"
+        data-testid="page-text_content"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus dictum iaculis. Proin suscipit lorem porttitor odio gravida rhoncus. Praesent a sollicitudin massa. Curabitur convallis volutpat efficitur. Donec auctor rhoncus magna non consequat. Aenean sodales lacinia lorem, sit amet porttitor nibh laoreet ut. Vivamus eleifend sit amet turpis eu cursus. Nulla consequat purus lorem, quis faucibus ipsum lobortis nec. Vivamus vel mauris eget libero consectetur tincidunt. Nulla nibh libero, condimentum quis eros in, dictum suscipit quam.
+      </p>
+      <button
+        class="ui-link__button hover regular default"
+        data-testid="ui-button_button"
+      >
+        <a
+          data-testid="page-text_button"
+          href="#"
+          target="_self"
+        >
+          <p
+            data-testid="ui-button_paragraph"
+          >
+            See more
+          </p>
+          <p
+            data-testid="ui-button_subtitle"
+          >
+            Projects
+          </p>
+        </a>
+      </button>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

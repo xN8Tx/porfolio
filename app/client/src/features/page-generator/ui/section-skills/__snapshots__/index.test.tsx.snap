@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Genretor/Section Skills shold match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
+      <section
+        class="skills"
+        data-scroll-section="true"
+        data-testid="page-skills"
+        id="section-skills"
+      >
+        <h3
+          class="ui-heading small light"
+          data-testid="ui-heading"
+        >
+          Projects
+        </h3>
+        <div
+          class="skills__wrapper"
+          data-scroll="true"
+        >
+          <ul
+            class="skills__list"
+          >
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                01
+                . 
+                HTML
+              </p>
+            </li>
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                02
+                . 
+                JavaScript
+              </p>
+            </li>
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                03
+                . 
+                TypeScript
+              </p>
+            </li>
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                04
+                . 
+                NextJS
+              </p>
+            </li>
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                05
+                . 
+                TailwindCSS
+              </p>
+            </li>
+          </ul>
+          <ul
+            class="skills__list"
+          >
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                06
+                . 
+                Zustand
+              </p>
+            </li>
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                07
+                . 
+                Redux, RTK
+              </p>
+            </li>
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                08
+                . 
+                React Query
+              </p>
+            </li>
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                09
+                . 
+                React Hook Form
+              </p>
+            </li>
+            <li
+              class="skills__item"
+              data-testid="page-skills_item"
+            >
+              <p
+                class="ui-paragraph large default"
+                data-testid="ui-paragraph"
+              >
+                10
+                . 
+                Zod
+              </p>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="ui-link__button hover regular default"
+          data-testid="ui-button_button"
+        >
+          <a
+            data-testid="ui-button_link"
+            href="#"
+            target="_self"
+          >
+            <p
+              data-testid="ui-button_paragraph"
+            >
+              See more
+            </p>
+            <p
+              data-testid="ui-button_subtitle"
+            >
+              Projects
+            </p>
+          </a>
+        </button>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
+    <section
+      class="skills"
+      data-scroll-section="true"
+      data-testid="page-skills"
+      id="section-skills"
+    >
+      <h3
+        class="ui-heading small light"
+        data-testid="ui-heading"
+      >
+        Projects
+      </h3>
+      <div
+        class="skills__wrapper"
+        data-scroll="true"
+      >
+        <ul
+          class="skills__list"
+        >
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              01
+              . 
+              HTML
+            </p>
+          </li>
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              02
+              . 
+              JavaScript
+            </p>
+          </li>
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              03
+              . 
+              TypeScript
+            </p>
+          </li>
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              04
+              . 
+              NextJS
+            </p>
+          </li>
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              05
+              . 
+              TailwindCSS
+            </p>
+          </li>
+        </ul>
+        <ul
+          class="skills__list"
+        >
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              06
+              . 
+              Zustand
+            </p>
+          </li>
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              07
+              . 
+              Redux, RTK
+            </p>
+          </li>
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              08
+              . 
+              React Query
+            </p>
+          </li>
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              09
+              . 
+              React Hook Form
+            </p>
+          </li>
+          <li
+            class="skills__item"
+            data-testid="page-skills_item"
+          >
+            <p
+              class="ui-paragraph large default"
+              data-testid="ui-paragraph"
+            >
+              10
+              . 
+              Zod
+            </p>
+          </li>
+        </ul>
+      </div>
+      <button
+        class="ui-link__button hover regular default"
+        data-testid="ui-button_button"
+      >
+        <a
+          data-testid="ui-button_link"
+          href="#"
+          target="_self"
+        >
+          <p
+            data-testid="ui-button_paragraph"
+          >
+            See more
+          </p>
+          <p
+            data-testid="ui-button_subtitle"
+          >
+            Projects
+          </p>
+        </a>
+      </button>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

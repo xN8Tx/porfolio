@@ -1,5 +1,5 @@
-import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom";
+import { screen } from "@testing-library/react";
+import { render } from "@/shared/test-lib";
 
 import { NextIntlClientProvider } from "next-intl";
 import { Link } from "./";
@@ -7,11 +7,9 @@ import { Link } from "./";
 describe("UI/Link Testing", () => {
   test("should render with _blank target", () => {
     render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Link href={"/link"} isExternal={true}>
-          Children
-        </Link>
-      </NextIntlClientProvider>,
+      <Link href={"/link"} isExternal={true}>
+        Children
+      </Link>,
     );
 
     const link = screen.getByTestId<HTMLAnchorElement>("ui-link");
@@ -22,11 +20,9 @@ describe("UI/Link Testing", () => {
 
   test("should render with _self target", () => {
     render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Link href={"/link"} isExternal={false}>
-          Children
-        </Link>
-      </NextIntlClientProvider>,
+      <Link href={"/link"} isExternal={false}>
+        Children
+      </Link>,
     );
 
     const link = screen.getByTestId<HTMLAnchorElement>("ui-link");
@@ -37,11 +33,9 @@ describe("UI/Link Testing", () => {
 
   test("should render with uppercase", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Link href={"/link"} isExternal={false} uppercase={true}>
-          Children
-        </Link>
-      </NextIntlClientProvider>,
+      <Link href={"/link"} isExternal={false} uppercase={true}>
+        Children
+      </Link>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -49,11 +43,9 @@ describe("UI/Link Testing", () => {
 
   test("should render with light", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Link href={"/link"} isExternal={false} color="light">
-          Children
-        </Link>
-      </NextIntlClientProvider>,
+      <Link href={"/link"} isExternal={false} color="light">
+        Children
+      </Link>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -73,11 +65,9 @@ describe("UI/Link Testing", () => {
 
   test("should render with default", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Link href={"/link"} isExternal={false} color="default">
-          Children
-        </Link>
-      </NextIntlClientProvider>,
+      <Link href={"/link"} isExternal={false} color="default">
+        Children
+      </Link>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -85,11 +75,9 @@ describe("UI/Link Testing", () => {
 
   test("should render with small", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Link href={"/link"} isExternal={false} size="small">
-          Children
-        </Link>
-      </NextIntlClientProvider>,
+      <Link href={"/link"} isExternal={false} size="small">
+        Children
+      </Link>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -97,11 +85,9 @@ describe("UI/Link Testing", () => {
 
   test("should render with regular", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Link href={"/link"} isExternal={false} size="regular">
-          Children
-        </Link>
-      </NextIntlClientProvider>,
+      <Link href={"/link"} isExternal={false} size="regular">
+        Children
+      </Link>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -109,11 +95,9 @@ describe("UI/Link Testing", () => {
 
   test("should render with large", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Link href={"/link"} isExternal={false} size="large">
-          Children
-        </Link>
-      </NextIntlClientProvider>,
+      <Link href={"/link"} isExternal={false} size="large">
+        Children
+      </Link>,
     );
 
     expect(tree).toMatchSnapshot();

@@ -1,16 +1,15 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { Button } from "./";
 import { NextIntlClientProvider } from "next-intl";
+import { render } from "@/shared/test-lib";
 
 describe("UI/Button Testing", () => {
   test("should render with _blank target", () => {
     render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Button subtitle={"Subtitle"} href={"/link"} isExternal={true}>
-          Children
-        </Button>
-      </NextIntlClientProvider>,
+      <Button subtitle={"Subtitle"} href={"/link"} isExternal={true}>
+        Children
+      </Button>,
     );
 
     const paragraph = screen.getByTestId("ui-button_paragraph");
@@ -45,16 +44,14 @@ describe("UI/Button Testing", () => {
 
   test("should correct render small", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Button
-          subtitle={"Subtitle"}
-          href={"/link"}
-          isExternal={false}
-          size="small"
-        >
-          Children
-        </Button>
-      </NextIntlClientProvider>,
+      <Button
+        subtitle={"Subtitle"}
+        href={"/link"}
+        isExternal={false}
+        size="small"
+      >
+        Children
+      </Button>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -62,16 +59,14 @@ describe("UI/Button Testing", () => {
 
   test("should correct render regular", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Button
-          subtitle={"Subtitle"}
-          href={"/link"}
-          isExternal={false}
-          size="regular"
-        >
-          Children
-        </Button>
-      </NextIntlClientProvider>,
+      <Button
+        subtitle={"Subtitle"}
+        href={"/link"}
+        isExternal={false}
+        size="regular"
+      >
+        Children
+      </Button>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -79,16 +74,14 @@ describe("UI/Button Testing", () => {
 
   test("should correct render large", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Button
-          subtitle={"Subtitle"}
-          href={"/link"}
-          isExternal={false}
-          size="large"
-        >
-          Children
-        </Button>
-      </NextIntlClientProvider>,
+      <Button
+        subtitle={"Subtitle"}
+        href={"/link"}
+        isExternal={false}
+        size="large"
+      >
+        Children
+      </Button>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -96,16 +89,14 @@ describe("UI/Button Testing", () => {
 
   test("should correct render uppercase", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Button
-          subtitle={"Subtitle"}
-          href={"/link"}
-          isExternal={false}
-          uppercase={true}
-        >
-          Children
-        </Button>
-      </NextIntlClientProvider>,
+      <Button
+        subtitle={"Subtitle"}
+        href={"/link"}
+        isExternal={false}
+        uppercase={true}
+      >
+        Children
+      </Button>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -113,16 +104,14 @@ describe("UI/Button Testing", () => {
 
   test("should correct render light", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Button
-          subtitle={"Subtitle"}
-          href={"/link"}
-          isExternal={false}
-          color="light"
-        >
-          Children
-        </Button>
-      </NextIntlClientProvider>,
+      <Button
+        subtitle={"Subtitle"}
+        href={"/link"}
+        isExternal={false}
+        color="light"
+      >
+        Children
+      </Button>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -130,16 +119,14 @@ describe("UI/Button Testing", () => {
 
   test("should correct render background", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Button
-          subtitle={"Subtitle"}
-          href={"/link"}
-          isExternal={false}
-          color="background"
-        >
-          Children
-        </Button>
-      </NextIntlClientProvider>,
+      <Button
+        subtitle={"Subtitle"}
+        href={"/link"}
+        isExternal={false}
+        color="background"
+      >
+        Children
+      </Button>,
     );
 
     expect(tree).toMatchSnapshot();
@@ -147,16 +134,14 @@ describe("UI/Button Testing", () => {
 
   test("should correct render default", () => {
     const tree = render(
-      <NextIntlClientProvider messages={{}} locale="en">
-        <Button
-          subtitle={"Subtitle"}
-          href={"/link"}
-          isExternal={false}
-          color="default"
-        >
-          Children
-        </Button>
-      </NextIntlClientProvider>,
+      <Button
+        subtitle={"Subtitle"}
+        href={"/link"}
+        isExternal={false}
+        color="default"
+      >
+        Children
+      </Button>,
     );
 
     expect(tree).toMatchSnapshot();

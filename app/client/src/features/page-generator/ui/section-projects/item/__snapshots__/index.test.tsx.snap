@@ -1,0 +1,1021 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Genretor/Section Projects - Item shold render with github link and with demo availible 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
+      <div
+        class="projects-item"
+        data-scroll="true"
+        data-testid="page-projects_item"
+      >
+        <a
+          aria-disabled="true"
+          class="projects-item__image"
+          data-scroll="true"
+          data-testid="page-projects_demo_link"
+          href="https://shteyn-web.ru"
+        >
+          <div
+            class="projects-item__image_wrapper"
+            data-scroll="true"
+          >
+            <img
+              alt="Изображение"
+              data-nimg="1"
+              decoding="async"
+              height="1695"
+              loading="lazy"
+              src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
+              style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+              width="2012"
+            />
+          </div>
+          <div
+            class="projects-item__image_link"
+          >
+            See demo
+          </div>
+        </a>
+        <div
+          class="projects-item__information"
+        >
+          <div
+            class="projects-item__information_text"
+          >
+            <p
+              class="ui-paragraph regular default"
+              data-testid="ui-paragraph"
+            >
+              E-Commerce
+            </p>
+            <p
+              class="ui-paragraph regular default"
+              data-testid="ui-paragraph"
+            >
+              NextJS, TailwindCSS, TypeScript
+            </p>
+          </div>
+          <div
+            class="projects-item__information_link"
+          >
+            <a
+              data-testid="page-projects_github_link"
+              href="https://github.com/xN8Tx/portfolio"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div
+                style="width: 48px; height: 48px;"
+              >
+                <svg
+                  height="500"
+                  preserveAspectRatio="xMidYMid meet"
+                  style="width: 100%; height: 100%; transform: translate3d(0,0,0);"
+                  viewBox="0 0 500 500"
+                  width="500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <defs>
+                    <clippath
+                      id="__lottie_element_10"
+                    >
+                      <rect
+                        height="500"
+                        width="500"
+                        x="0"
+                        y="0"
+                      />
+                    </clippath>
+                  </defs>
+                  <g
+                    clip-path="url(#__lottie_element_10)"
+                  >
+                    <g
+                      opacity="1"
+                      style="display: block;"
+                      transform="matrix(1,0,0,1,99.75,99.75)"
+                    >
+                      <g
+                        opacity="1"
+                        transform="matrix(1,0,0,1,150.25,150.25)"
+                      >
+                        <path
+                          d=" M100,150 C100,150 -100,150 -100,150 C-127.61399841308594,150 -150,127.61399841308594 -150,100 C-150,100 -150,-100 -150,-100 C-150,-127.61399841308594 -127.61399841308594,-150 -100,-150 C-100,-150 100,-150 100,-150 C127.61399841308594,-150 150,-127.61399841308594 150,-100 C150,-100 150,100 150,100 C150,127.61399841308594 127.61399841308594,150 100,150z"
+                          fill="rgb(255,255,255)"
+                          fill-opacity="1"
+                        />
+                      </g>
+                    </g>
+                    <g
+                      opacity="1"
+                      style="display: block;"
+                      transform="matrix(1,0,0,1,139.75,144.33200073242188)"
+                    >
+                      <g
+                        opacity="1"
+                        transform="matrix(1,0,0,1,110.25,106.08399963378906)"
+                      >
+                        <path
+                          d=" M0,-105.83399963378906 C-60.775001525878906,-105.83399963378906 -110,-57.433998107910156 -110,2.259999990463257 C-110,50.027000427246094 -78.48500061035156,90.53500366210938 -34.7869987487793,104.81600189208984 C-29.28700065612793,105.83399963378906 -27.270999908447266,102.48699951171875 -27.270999908447266,99.61799621582031 C-27.270999908447266,97.052001953125 -27.36199951171875,90.2509994506836 -27.408000946044922,81.23999786376953 C-58.00699996948242,87.75800323486328 -64.45999908447266,66.73799896240234 -64.45999908447266,66.73799896240234 C-69.46499633789062,54.26300048828125 -76.6969985961914,50.92599868774414 -76.6969985961914,50.92599868774414 C-86.66200256347656,44.224998474121094 -75.9280014038086,44.36199951171875 -75.9280014038086,44.36199951171875 C-64.88200378417969,45.11399841308594 -59.07899856567383,55.499000549316406 -59.07899856567383,55.499000549316406 C-49.270999908447266,72.0260009765625 -33.33000183105469,67.25199890136719 -27.04199981689453,64.49199676513672 C-26.052000045776367,57.49800109863281 -23.2189998626709,52.7400016784668 -20.075000762939453,50.0359992980957 C-44.50400161743164,47.332000732421875 -70.18000030517578,38.0359992980957 -70.18000030517578,-3.378000020980835 C-70.18000030517578,-15.175999641418457 -65.91799926757812,-24.81800079345703 -58.85900115966797,-32.38100051879883 C-60.09700012207031,-35.11199951171875 -63.810001373291016,-46.104000091552734 -57.895999908447266,-60.9900016784668 C-57.895999908447266,-60.9900016784668 -48.685001373291016,-63.887001037597656 -27.645999908447266,-49.90700149536133 C-18.847000122070312,-52.310001373291016 -9.496999740600586,-53.50199890136719 -0.1459999978542328,-53.55699920654297 C9.20300006866455,-53.50199890136719 18.554000854492188,-52.310001373291016 27.354000091552734,-49.90700149536133 C48.25299835205078,-63.887001037597656 57.465999603271484,-60.9900016784668 57.465999603271484,-60.9900016784668 C63.37799835205078,-46.104000091552734 59.66600036621094,-35.11199951171875 58.564998626708984,-32.38100051879883 C65.5780029296875,-24.81800079345703 69.84100341796875,-15.175999641418457 69.84100341796875,-3.378000020980835 C69.84100341796875,38.145999908447266 44.12799835205078,47.2869987487793 19.652999877929688,49.94499969482422 C23.503000259399414,53.189998626708984 27.077999114990234,59.81700134277344 27.077999114990234,69.94599914550781 C27.077999114990234,84.41200256347656 26.940000534057617,96.03500366210938 26.940000534057617,99.5459976196289 C26.940000534057617,102.37799835205078 28.865999221801758,105.76100158691406 34.50299835205078,104.68000030517578 C78.51300048828125,90.48899841308594 110,49.95399856567383 110,2.259999990463257 C110,-57.433998107910156 60.74700164794922,-105.83399963378906 0,-105.83399963378906z"
+                          fill="rgb(19,19,19)"
+                          fill-opacity="1"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
+    <div
+      class="projects-item"
+      data-scroll="true"
+      data-testid="page-projects_item"
+    >
+      <a
+        aria-disabled="true"
+        class="projects-item__image"
+        data-scroll="true"
+        data-testid="page-projects_demo_link"
+        href="https://shteyn-web.ru"
+      >
+        <div
+          class="projects-item__image_wrapper"
+          data-scroll="true"
+        >
+          <img
+            alt="Изображение"
+            data-nimg="1"
+            decoding="async"
+            height="1695"
+            loading="lazy"
+            src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
+            style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+            width="2012"
+          />
+        </div>
+        <div
+          class="projects-item__image_link"
+        >
+          See demo
+        </div>
+      </a>
+      <div
+        class="projects-item__information"
+      >
+        <div
+          class="projects-item__information_text"
+        >
+          <p
+            class="ui-paragraph regular default"
+            data-testid="ui-paragraph"
+          >
+            E-Commerce
+          </p>
+          <p
+            class="ui-paragraph regular default"
+            data-testid="ui-paragraph"
+          >
+            NextJS, TailwindCSS, TypeScript
+          </p>
+        </div>
+        <div
+          class="projects-item__information_link"
+        >
+          <a
+            data-testid="page-projects_github_link"
+            href="https://github.com/xN8Tx/portfolio"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              style="width: 48px; height: 48px;"
+            >
+              <svg
+                height="500"
+                preserveAspectRatio="xMidYMid meet"
+                style="width: 100%; height: 100%; transform: translate3d(0,0,0);"
+                viewBox="0 0 500 500"
+                width="500"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <clippath
+                    id="__lottie_element_10"
+                  >
+                    <rect
+                      height="500"
+                      width="500"
+                      x="0"
+                      y="0"
+                    />
+                  </clippath>
+                </defs>
+                <g
+                  clip-path="url(#__lottie_element_10)"
+                >
+                  <g
+                    opacity="1"
+                    style="display: block;"
+                    transform="matrix(1,0,0,1,99.75,99.75)"
+                  >
+                    <g
+                      opacity="1"
+                      transform="matrix(1,0,0,1,150.25,150.25)"
+                    >
+                      <path
+                        d=" M100,150 C100,150 -100,150 -100,150 C-127.61399841308594,150 -150,127.61399841308594 -150,100 C-150,100 -150,-100 -150,-100 C-150,-127.61399841308594 -127.61399841308594,-150 -100,-150 C-100,-150 100,-150 100,-150 C127.61399841308594,-150 150,-127.61399841308594 150,-100 C150,-100 150,100 150,100 C150,127.61399841308594 127.61399841308594,150 100,150z"
+                        fill="rgb(255,255,255)"
+                        fill-opacity="1"
+                      />
+                    </g>
+                  </g>
+                  <g
+                    opacity="1"
+                    style="display: block;"
+                    transform="matrix(1,0,0,1,139.75,144.33200073242188)"
+                  >
+                    <g
+                      opacity="1"
+                      transform="matrix(1,0,0,1,110.25,106.08399963378906)"
+                    >
+                      <path
+                        d=" M0,-105.83399963378906 C-60.775001525878906,-105.83399963378906 -110,-57.433998107910156 -110,2.259999990463257 C-110,50.027000427246094 -78.48500061035156,90.53500366210938 -34.7869987487793,104.81600189208984 C-29.28700065612793,105.83399963378906 -27.270999908447266,102.48699951171875 -27.270999908447266,99.61799621582031 C-27.270999908447266,97.052001953125 -27.36199951171875,90.2509994506836 -27.408000946044922,81.23999786376953 C-58.00699996948242,87.75800323486328 -64.45999908447266,66.73799896240234 -64.45999908447266,66.73799896240234 C-69.46499633789062,54.26300048828125 -76.6969985961914,50.92599868774414 -76.6969985961914,50.92599868774414 C-86.66200256347656,44.224998474121094 -75.9280014038086,44.36199951171875 -75.9280014038086,44.36199951171875 C-64.88200378417969,45.11399841308594 -59.07899856567383,55.499000549316406 -59.07899856567383,55.499000549316406 C-49.270999908447266,72.0260009765625 -33.33000183105469,67.25199890136719 -27.04199981689453,64.49199676513672 C-26.052000045776367,57.49800109863281 -23.2189998626709,52.7400016784668 -20.075000762939453,50.0359992980957 C-44.50400161743164,47.332000732421875 -70.18000030517578,38.0359992980957 -70.18000030517578,-3.378000020980835 C-70.18000030517578,-15.175999641418457 -65.91799926757812,-24.81800079345703 -58.85900115966797,-32.38100051879883 C-60.09700012207031,-35.11199951171875 -63.810001373291016,-46.104000091552734 -57.895999908447266,-60.9900016784668 C-57.895999908447266,-60.9900016784668 -48.685001373291016,-63.887001037597656 -27.645999908447266,-49.90700149536133 C-18.847000122070312,-52.310001373291016 -9.496999740600586,-53.50199890136719 -0.1459999978542328,-53.55699920654297 C9.20300006866455,-53.50199890136719 18.554000854492188,-52.310001373291016 27.354000091552734,-49.90700149536133 C48.25299835205078,-63.887001037597656 57.465999603271484,-60.9900016784668 57.465999603271484,-60.9900016784668 C63.37799835205078,-46.104000091552734 59.66600036621094,-35.11199951171875 58.564998626708984,-32.38100051879883 C65.5780029296875,-24.81800079345703 69.84100341796875,-15.175999641418457 69.84100341796875,-3.378000020980835 C69.84100341796875,38.145999908447266 44.12799835205078,47.2869987487793 19.652999877929688,49.94499969482422 C23.503000259399414,53.189998626708984 27.077999114990234,59.81700134277344 27.077999114990234,69.94599914550781 C27.077999114990234,84.41200256347656 26.940000534057617,96.03500366210938 26.940000534057617,99.5459976196289 C26.940000534057617,102.37799835205078 28.865999221801758,105.76100158691406 34.50299835205078,104.68000030517578 C78.51300048828125,90.48899841308594 110,49.95399856567383 110,2.259999990463257 C110,-57.433998107910156 60.74700164794922,-105.83399963378906 0,-105.83399963378906z"
+                        fill="rgb(19,19,19)"
+                        fill-opacity="1"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Page Genretor/Section Projects - Item shold render with github link and with demo not availible 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
+      <div
+        class="projects-item"
+        data-scroll="true"
+        data-testid="page-projects_item"
+      >
+        <a
+          class="projects-item__image"
+          data-scroll="true"
+          data-testid="page-projects_demo_not_availible"
+        >
+          <div
+            class="projects-item__image_wrapper"
+            data-scroll="true"
+          >
+            <img
+              alt="Изображение"
+              data-nimg="1"
+              decoding="async"
+              height="1695"
+              loading="lazy"
+              src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
+              style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+              width="2012"
+            />
+          </div>
+          <div
+            class="projects-item__image_link"
+          >
+            Demo not available
+          </div>
+        </a>
+        <div
+          class="projects-item__information"
+        >
+          <div
+            class="projects-item__information_text"
+          >
+            <p
+              class="ui-paragraph regular default"
+              data-testid="ui-paragraph"
+            >
+              Landing
+            </p>
+            <p
+              class="ui-paragraph regular default"
+              data-testid="ui-paragraph"
+            >
+              NextJS, TailwindCSS, TypeScript
+            </p>
+          </div>
+          <div
+            class="projects-item__information_link"
+          >
+            <a
+              data-testid="page-projects_github_link"
+              href="https://github.com/xN8Tx/portfolio"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div
+                style="width: 48px; height: 48px;"
+              >
+                <svg
+                  height="500"
+                  preserveAspectRatio="xMidYMid meet"
+                  style="width: 100%; height: 100%; transform: translate3d(0,0,0);"
+                  viewBox="0 0 500 500"
+                  width="500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <defs>
+                    <clippath
+                      id="__lottie_element_2"
+                    >
+                      <rect
+                        height="500"
+                        width="500"
+                        x="0"
+                        y="0"
+                      />
+                    </clippath>
+                  </defs>
+                  <g
+                    clip-path="url(#__lottie_element_2)"
+                  >
+                    <g
+                      opacity="1"
+                      style="display: block;"
+                      transform="matrix(1,0,0,1,99.75,99.75)"
+                    >
+                      <g
+                        opacity="1"
+                        transform="matrix(1,0,0,1,150.25,150.25)"
+                      >
+                        <path
+                          d=" M100,150 C100,150 -100,150 -100,150 C-127.61399841308594,150 -150,127.61399841308594 -150,100 C-150,100 -150,-100 -150,-100 C-150,-127.61399841308594 -127.61399841308594,-150 -100,-150 C-100,-150 100,-150 100,-150 C127.61399841308594,-150 150,-127.61399841308594 150,-100 C150,-100 150,100 150,100 C150,127.61399841308594 127.61399841308594,150 100,150z"
+                          fill="rgb(255,255,255)"
+                          fill-opacity="1"
+                        />
+                      </g>
+                    </g>
+                    <g
+                      opacity="1"
+                      style="display: block;"
+                      transform="matrix(1,0,0,1,139.75,144.33200073242188)"
+                    >
+                      <g
+                        opacity="1"
+                        transform="matrix(1,0,0,1,110.25,106.08399963378906)"
+                      >
+                        <path
+                          d=" M0,-105.83399963378906 C-60.775001525878906,-105.83399963378906 -110,-57.433998107910156 -110,2.259999990463257 C-110,50.027000427246094 -78.48500061035156,90.53500366210938 -34.7869987487793,104.81600189208984 C-29.28700065612793,105.83399963378906 -27.270999908447266,102.48699951171875 -27.270999908447266,99.61799621582031 C-27.270999908447266,97.052001953125 -27.36199951171875,90.2509994506836 -27.408000946044922,81.23999786376953 C-58.00699996948242,87.75800323486328 -64.45999908447266,66.73799896240234 -64.45999908447266,66.73799896240234 C-69.46499633789062,54.26300048828125 -76.6969985961914,50.92599868774414 -76.6969985961914,50.92599868774414 C-86.66200256347656,44.224998474121094 -75.9280014038086,44.36199951171875 -75.9280014038086,44.36199951171875 C-64.88200378417969,45.11399841308594 -59.07899856567383,55.499000549316406 -59.07899856567383,55.499000549316406 C-49.270999908447266,72.0260009765625 -33.33000183105469,67.25199890136719 -27.04199981689453,64.49199676513672 C-26.052000045776367,57.49800109863281 -23.2189998626709,52.7400016784668 -20.075000762939453,50.0359992980957 C-44.50400161743164,47.332000732421875 -70.18000030517578,38.0359992980957 -70.18000030517578,-3.378000020980835 C-70.18000030517578,-15.175999641418457 -65.91799926757812,-24.81800079345703 -58.85900115966797,-32.38100051879883 C-60.09700012207031,-35.11199951171875 -63.810001373291016,-46.104000091552734 -57.895999908447266,-60.9900016784668 C-57.895999908447266,-60.9900016784668 -48.685001373291016,-63.887001037597656 -27.645999908447266,-49.90700149536133 C-18.847000122070312,-52.310001373291016 -9.496999740600586,-53.50199890136719 -0.1459999978542328,-53.55699920654297 C9.20300006866455,-53.50199890136719 18.554000854492188,-52.310001373291016 27.354000091552734,-49.90700149536133 C48.25299835205078,-63.887001037597656 57.465999603271484,-60.9900016784668 57.465999603271484,-60.9900016784668 C63.37799835205078,-46.104000091552734 59.66600036621094,-35.11199951171875 58.564998626708984,-32.38100051879883 C65.5780029296875,-24.81800079345703 69.84100341796875,-15.175999641418457 69.84100341796875,-3.378000020980835 C69.84100341796875,38.145999908447266 44.12799835205078,47.2869987487793 19.652999877929688,49.94499969482422 C23.503000259399414,53.189998626708984 27.077999114990234,59.81700134277344 27.077999114990234,69.94599914550781 C27.077999114990234,84.41200256347656 26.940000534057617,96.03500366210938 26.940000534057617,99.5459976196289 C26.940000534057617,102.37799835205078 28.865999221801758,105.76100158691406 34.50299835205078,104.68000030517578 C78.51300048828125,90.48899841308594 110,49.95399856567383 110,2.259999990463257 C110,-57.433998107910156 60.74700164794922,-105.83399963378906 0,-105.83399963378906z"
+                          fill="rgb(19,19,19)"
+                          fill-opacity="1"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
+    <div
+      class="projects-item"
+      data-scroll="true"
+      data-testid="page-projects_item"
+    >
+      <a
+        class="projects-item__image"
+        data-scroll="true"
+        data-testid="page-projects_demo_not_availible"
+      >
+        <div
+          class="projects-item__image_wrapper"
+          data-scroll="true"
+        >
+          <img
+            alt="Изображение"
+            data-nimg="1"
+            decoding="async"
+            height="1695"
+            loading="lazy"
+            src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
+            style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+            width="2012"
+          />
+        </div>
+        <div
+          class="projects-item__image_link"
+        >
+          Demo not available
+        </div>
+      </a>
+      <div
+        class="projects-item__information"
+      >
+        <div
+          class="projects-item__information_text"
+        >
+          <p
+            class="ui-paragraph regular default"
+            data-testid="ui-paragraph"
+          >
+            Landing
+          </p>
+          <p
+            class="ui-paragraph regular default"
+            data-testid="ui-paragraph"
+          >
+            NextJS, TailwindCSS, TypeScript
+          </p>
+        </div>
+        <div
+          class="projects-item__information_link"
+        >
+          <a
+            data-testid="page-projects_github_link"
+            href="https://github.com/xN8Tx/portfolio"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              style="width: 48px; height: 48px;"
+            >
+              <svg
+                height="500"
+                preserveAspectRatio="xMidYMid meet"
+                style="width: 100%; height: 100%; transform: translate3d(0,0,0);"
+                viewBox="0 0 500 500"
+                width="500"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <clippath
+                    id="__lottie_element_2"
+                  >
+                    <rect
+                      height="500"
+                      width="500"
+                      x="0"
+                      y="0"
+                    />
+                  </clippath>
+                </defs>
+                <g
+                  clip-path="url(#__lottie_element_2)"
+                >
+                  <g
+                    opacity="1"
+                    style="display: block;"
+                    transform="matrix(1,0,0,1,99.75,99.75)"
+                  >
+                    <g
+                      opacity="1"
+                      transform="matrix(1,0,0,1,150.25,150.25)"
+                    >
+                      <path
+                        d=" M100,150 C100,150 -100,150 -100,150 C-127.61399841308594,150 -150,127.61399841308594 -150,100 C-150,100 -150,-100 -150,-100 C-150,-127.61399841308594 -127.61399841308594,-150 -100,-150 C-100,-150 100,-150 100,-150 C127.61399841308594,-150 150,-127.61399841308594 150,-100 C150,-100 150,100 150,100 C150,127.61399841308594 127.61399841308594,150 100,150z"
+                        fill="rgb(255,255,255)"
+                        fill-opacity="1"
+                      />
+                    </g>
+                  </g>
+                  <g
+                    opacity="1"
+                    style="display: block;"
+                    transform="matrix(1,0,0,1,139.75,144.33200073242188)"
+                  >
+                    <g
+                      opacity="1"
+                      transform="matrix(1,0,0,1,110.25,106.08399963378906)"
+                    >
+                      <path
+                        d=" M0,-105.83399963378906 C-60.775001525878906,-105.83399963378906 -110,-57.433998107910156 -110,2.259999990463257 C-110,50.027000427246094 -78.48500061035156,90.53500366210938 -34.7869987487793,104.81600189208984 C-29.28700065612793,105.83399963378906 -27.270999908447266,102.48699951171875 -27.270999908447266,99.61799621582031 C-27.270999908447266,97.052001953125 -27.36199951171875,90.2509994506836 -27.408000946044922,81.23999786376953 C-58.00699996948242,87.75800323486328 -64.45999908447266,66.73799896240234 -64.45999908447266,66.73799896240234 C-69.46499633789062,54.26300048828125 -76.6969985961914,50.92599868774414 -76.6969985961914,50.92599868774414 C-86.66200256347656,44.224998474121094 -75.9280014038086,44.36199951171875 -75.9280014038086,44.36199951171875 C-64.88200378417969,45.11399841308594 -59.07899856567383,55.499000549316406 -59.07899856567383,55.499000549316406 C-49.270999908447266,72.0260009765625 -33.33000183105469,67.25199890136719 -27.04199981689453,64.49199676513672 C-26.052000045776367,57.49800109863281 -23.2189998626709,52.7400016784668 -20.075000762939453,50.0359992980957 C-44.50400161743164,47.332000732421875 -70.18000030517578,38.0359992980957 -70.18000030517578,-3.378000020980835 C-70.18000030517578,-15.175999641418457 -65.91799926757812,-24.81800079345703 -58.85900115966797,-32.38100051879883 C-60.09700012207031,-35.11199951171875 -63.810001373291016,-46.104000091552734 -57.895999908447266,-60.9900016784668 C-57.895999908447266,-60.9900016784668 -48.685001373291016,-63.887001037597656 -27.645999908447266,-49.90700149536133 C-18.847000122070312,-52.310001373291016 -9.496999740600586,-53.50199890136719 -0.1459999978542328,-53.55699920654297 C9.20300006866455,-53.50199890136719 18.554000854492188,-52.310001373291016 27.354000091552734,-49.90700149536133 C48.25299835205078,-63.887001037597656 57.465999603271484,-60.9900016784668 57.465999603271484,-60.9900016784668 C63.37799835205078,-46.104000091552734 59.66600036621094,-35.11199951171875 58.564998626708984,-32.38100051879883 C65.5780029296875,-24.81800079345703 69.84100341796875,-15.175999641418457 69.84100341796875,-3.378000020980835 C69.84100341796875,38.145999908447266 44.12799835205078,47.2869987487793 19.652999877929688,49.94499969482422 C23.503000259399414,53.189998626708984 27.077999114990234,59.81700134277344 27.077999114990234,69.94599914550781 C27.077999114990234,84.41200256347656 26.940000534057617,96.03500366210938 26.940000534057617,99.5459976196289 C26.940000534057617,102.37799835205078 28.865999221801758,105.76100158691406 34.50299835205078,104.68000030517578 C78.51300048828125,90.48899841308594 110,49.95399856567383 110,2.259999990463257 C110,-57.433998107910156 60.74700164794922,-105.83399963378906 0,-105.83399963378906z"
+                        fill="rgb(19,19,19)"
+                        fill-opacity="1"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Page Genretor/Section Projects - Item shold render without github link and with demo availible 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
+      <div
+        class="projects-item"
+        data-scroll="true"
+        data-testid="page-projects_item"
+      >
+        <a
+          aria-disabled="true"
+          class="projects-item__image"
+          data-scroll="true"
+          data-testid="page-projects_demo_link"
+          href="https://shteyn-web.ru"
+        >
+          <div
+            class="projects-item__image_wrapper"
+            data-scroll="true"
+          >
+            <img
+              alt="Изображение"
+              data-nimg="1"
+              decoding="async"
+              height="1695"
+              loading="lazy"
+              src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
+              style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+              width="2012"
+            />
+          </div>
+          <div
+            class="projects-item__image_link"
+          >
+            See demo
+          </div>
+        </a>
+        <div
+          class="projects-item__information"
+        >
+          <div
+            class="projects-item__information_text"
+          >
+            <p
+              class="ui-paragraph regular default"
+              data-testid="ui-paragraph"
+            >
+              TODO App
+            </p>
+            <p
+              class="ui-paragraph regular default"
+              data-testid="ui-paragraph"
+            >
+              NextJS, TailwindCSS, TypeScript
+            </p>
+          </div>
+          <div
+            class="projects-item__information_link"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
+    <div
+      class="projects-item"
+      data-scroll="true"
+      data-testid="page-projects_item"
+    >
+      <a
+        aria-disabled="true"
+        class="projects-item__image"
+        data-scroll="true"
+        data-testid="page-projects_demo_link"
+        href="https://shteyn-web.ru"
+      >
+        <div
+          class="projects-item__image_wrapper"
+          data-scroll="true"
+        >
+          <img
+            alt="Изображение"
+            data-nimg="1"
+            decoding="async"
+            height="1695"
+            loading="lazy"
+            src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
+            style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+            width="2012"
+          />
+        </div>
+        <div
+          class="projects-item__image_link"
+        >
+          See demo
+        </div>
+      </a>
+      <div
+        class="projects-item__information"
+      >
+        <div
+          class="projects-item__information_text"
+        >
+          <p
+            class="ui-paragraph regular default"
+            data-testid="ui-paragraph"
+          >
+            TODO App
+          </p>
+          <p
+            class="ui-paragraph regular default"
+            data-testid="ui-paragraph"
+          >
+            NextJS, TailwindCSS, TypeScript
+          </p>
+        </div>
+        <div
+          class="projects-item__information_link"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Page Genretor/Section Projects - Item shold render without github link and with demo not availible 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+      </script>
+      <div
+        class="projects-item"
+        data-scroll="true"
+        data-testid="page-projects_item"
+      >
+        <a
+          class="projects-item__image"
+          data-scroll="true"
+          data-testid="page-projects_demo_not_availible"
+        >
+          <div
+            class="projects-item__image_wrapper"
+            data-scroll="true"
+          >
+            <img
+              alt="Изображение"
+              data-nimg="1"
+              decoding="async"
+              height="1695"
+              loading="lazy"
+              src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
+              style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+              width="2012"
+            />
+          </div>
+          <div
+            class="projects-item__image_link"
+          >
+            Demo not available
+          </div>
+        </a>
+        <div
+          class="projects-item__information"
+        >
+          <div
+            class="projects-item__information_text"
+          >
+            <p
+              class="ui-paragraph regular default"
+              data-testid="ui-paragraph"
+            >
+              E-Commerce
+            </p>
+            <p
+              class="ui-paragraph regular default"
+              data-testid="ui-paragraph"
+            >
+              NextJS, TailwindCSS, TypeScript
+            </p>
+          </div>
+          <div
+            class="projects-item__information_link"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <script
+      nonce=""
+    >
+      ((e,s,n,m,o,l,u,h)=&gt;{let a=document.documentElement,v=["light","dark"];function p(c){(Array.isArray(e)?e:[e]).forEach(y=&gt;{let k=y==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(a.classList.remove(...S),a.classList.add(c)):a.setAttribute(y,c)}),C(c)}function C(c){h&&v.includes(c)&&(a.style.colorScheme=c)}function d(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let c=localStorage.getItem(s)||n,y=u&&c==="system"?d():c;p(y)}catch(c){}})("data-theme","theme","dark",null,["light","dark"],null,true,true)
+    </script>
+    <div
+      class="projects-item"
+      data-scroll="true"
+      data-testid="page-projects_item"
+    >
+      <a
+        class="projects-item__image"
+        data-scroll="true"
+        data-testid="page-projects_demo_not_availible"
+      >
+        <div
+          class="projects-item__image_wrapper"
+          data-scroll="true"
+        >
+          <img
+            alt="Изображение"
+            data-nimg="1"
+            decoding="async"
+            height="1695"
+            loading="lazy"
+            src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
+            style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+            width="2012"
+          />
+        </div>
+        <div
+          class="projects-item__image_link"
+        >
+          Demo not available
+        </div>
+      </a>
+      <div
+        class="projects-item__information"
+      >
+        <div
+          class="projects-item__information_text"
+        >
+          <p
+            class="ui-paragraph regular default"
+            data-testid="ui-paragraph"
+          >
+            E-Commerce
+          </p>
+          <p
+            class="ui-paragraph regular default"
+            data-testid="ui-paragraph"
+          >
+            NextJS, TailwindCSS, TypeScript
+          </p>
+        </div>
+        <div
+          class="projects-item__information_link"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
