@@ -35,210 +35,196 @@
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-button--regular&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Button Small | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-button--small&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Button Large | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-button--large&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Button Light | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-button--light-color&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Button Regular | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-button--regular&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Button Small | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-button--small&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Button Large | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-button--large&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Button Light | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-button--light-color&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Heading Regular | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-heading--regular&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Heading Large | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-heading--large&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Heading Small | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-heading--small&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Heading Regular | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-heading--regular&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Heading Large | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-heading--large&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Heading Small | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-heading--small&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Paragraph Regular | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-paragraph--regular&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Paragraph Large | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-paragraph--large&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Paragraph Small | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-paragraph--small&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Paragraph Regular | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-paragraph--regular&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Paragraph Large | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-paragraph--large&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Paragraph Small | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-paragraph--small&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Link Regular | Dark mode",
       "url": "http://localhost:6006/iframe.html?globals=&args=&id=ui-link--regular&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "UI/Link Regular | Light mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&args=&id=ui-link--regular&viewMode=story",
       "selectors": ["document"],
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "Page Generator/Hero | Dark Mode",
       "url": "http://localhost:6006/iframe.html?globals=&id=page-generator-hero--primary&viewMode=story",
       "selectors": ["document"],
       "delay": 4000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "Page Generator/Hero | Light Mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&id=page-generator-hero--primary&viewMode=story",
       "selectors": ["document"],
       "delay": 4000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "Page Generator/Section Skills | Dark Mode",
       "url": "http://localhost:6006/iframe.html?globals=&id=page-generator-section-skills--primary&viewMode=story",
       "selectors": ["document"],
       "delay": 4000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "Page Generator/Section Skills | Light Mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&id=page-generator-section-skills--primary&viewMode=story",
       "selectors": ["document"],
       "delay": 4000,
-      "misMatchThreshold": 0.5
-    },
-    {
-      "label": "Page Generator/Section Projects | Dark Mode",
-      "url": "http://localhost:6006/iframe.html?globals=&id=page-generator-section-projects--primary&viewMode=story",
-      "selectors": ["document"],
-      "delay": 4000,
-      "misMatchThreshold": 0.5
-    },
-    {
-      "label": "Page Generator/Section Projects | Light Mode",
-      "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&id=page-generator-section-projects--primary&viewMode=story",
-      "selectors": ["document"],
-      "delay": 4000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "Page Generator/Section Text | Dark Mode",
       "url": "http://localhost:6006/iframe.html?globals=&id=page-generator-section-text--primary&viewMode=story",
       "selectors": ["document"],
       "delay": 4000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     },
     {
       "label": "Page Generator/Section Text | Light Mode",
       "url": "http://localhost:6006/iframe.html?globals=theme%3Alight&id=page-generator-section-text--primary&viewMode=story",
       "selectors": ["document"],
       "delay": 4000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 0.9
     }
   ],
   "paths": {

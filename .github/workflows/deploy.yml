@@ -62,14 +62,14 @@ jobs:
       - name: Start BackstopJS
         run: |
           cd app/client
-          npx backstop test || (echo "BackstopJS find differences!" && exit 1)
+          yarn backstop:test
 
       - name: Save artifacts
         if: failure()
         uses: actions/upload-artifact@v4
         with:
           name: backstop-diff
-          path: backstop_data
+          path: app/client/backstop_data
 
   building:
     runs-on: ubuntu-latest
