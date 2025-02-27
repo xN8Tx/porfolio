@@ -1,6 +1,8 @@
 import createNextIntlPlugin from "next-intl/plugin";
 
-const remoteUrl = new URL(process.env.NEXT_PUBLIC_STRAPI_URL);
+const remoteUrl = new URL(
+  process.env.NEXT_PUBLIC_STRAPI_URL ?? "http://localhost:1337",
+);
 
 const withNextIntl = createNextIntlPlugin();
 

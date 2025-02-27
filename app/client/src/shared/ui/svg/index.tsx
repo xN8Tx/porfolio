@@ -15,7 +15,8 @@ type SvgProps = {
   className?: ClassValue[] | ClassValue;
 };
 
-const PUBLIC_URL = process.env.NEXT_PUBLIC_STRAPI_URL;
+const PUBLIC_URL =
+  process.env.NEXT_PUBLIC_STRAPI_URL ?? "http://localhost:1337";
 
 export const Svg = ({ src, mime, width, height, alt, className }: SvgProps) => {
   const [svg, setSvg] = useState<string | null>(null);
