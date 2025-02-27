@@ -6,6 +6,67 @@ on:
       - main
 
 jobs:
+  linting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          cd app/client 
+          yarn install
+      - name: Linting
+        run: |
+          cd app/client 
+          yarn lint
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          cd app/client 
+          yarn install
+      - name: Testing
+        run: |
+          cd app/client 
+          yarn test
+  visualTesting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          cd app/client
+          yarn install
+      - name: Start storybook
+        run: |
+          cd app/client
+          yarn storybook:dev
+      - name: Run visual regression tests
+        run: |
+          cd app/client
+          yarn backstop:test
+  building:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          npm install typescript --global
+          cd app/client 
+          yarn install
+          cd ../strapi
+          yarn install
+      - name: Build
+        run: |
+          cd app/client 
+          npx tsc
+          cd ../strapi
+          yarn tsc
   deploy:
     runs-on: ubuntu-latest
 
