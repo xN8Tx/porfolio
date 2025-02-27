@@ -39,7 +39,7 @@ jobs:
 
   building:
     runs-on: ubuntu-latest
-    needs: visualTesting
+    needs: testing
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
