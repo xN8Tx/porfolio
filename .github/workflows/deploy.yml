@@ -14,7 +14,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd app/client 
-          yarn install
+          yarn
       - name: Linting
         run: |
           cd app/client 
@@ -41,16 +41,35 @@ jobs:
     runs-on: ubuntu-latest
     needs: testing
     steps:
-      - name: Checkout repository
+      - name: Checkout репозитория
         uses: actions/checkout@v4
+
       - name: Install dependencies
         run: |
+          npm install http-server --global
           cd app/client
-          yarn install
-      - name: Run visual tests
+          yarn
+
+      - name: Start Storybook
         run: |
           cd app/client
-          yarn storybook:dev & yarn backstop:test
+          yarn storybook:build 
+          npx http-server storybook-static -p 6006 &
+
+      - name: Waiting Storybook server
+        run: npx wait-on http://localhost:6006
+
+      - name: Start BackstopJS
+        run: |
+          cd app/client
+          npx backstop test || (echo "BackstopJS find differences!" && exit 1)
+
+      - name: Save artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backstop-diff
+          path: backstop_data
 
   building:
     runs-on: ubuntu-latest

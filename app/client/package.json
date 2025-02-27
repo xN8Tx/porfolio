@@ -10,7 +10,7 @@
     "test": "NODE_ENV=test jest",
     "storybook:dev": "NODE_MODE=test storybook dev -p 6006",
     "storybook:build": "NODE_MODE=test storybook build",
-    "backstop:test": "NODE_ENV=test backstop test --config backstop.json && pkill -f 'yarn storybook:dev'",
+    "backstop:test": "NODE_ENV=test backstop test --config backstop.json",
     "backstop:build": "NODE_ENV=test backstop reference --config backstop.json"
   },
   "dependencies": {
