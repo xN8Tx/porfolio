@@ -8,11 +8,10 @@
     "start": "NODE_ENV=production next start",
     "lint": "NODE_ENV=test next lint",
     "test": "NODE_ENV=test jest",
-    "storybook:dev": "NODE_ENV=test storybook dev -p 6006",
-    "storybook:build": "NODE_ENV=test storybook build",
+    "storybook:dev": "NODE_MODE=test storybook dev -p 6006",
+    "storybook:build": "NODE_MODE=test storybook build",
     "backstop:test": "NODE_ENV=test backstop test --config backstop.json && pkill -f 'yarn storybook:dev'",
-    "backstop:build": "NODE_ENV=test backstop reference --config backstop.json",
-    "pre-commit": "yarn storybook:dev & yarn lint && yarn test && tsc && yarn backstop:test && pkill -f 'yarn storybook:dev'"
+    "backstop:build": "NODE_ENV=test backstop reference --config backstop.json"
   },
   "dependencies": {
     "clsx": "^2.1.1",
