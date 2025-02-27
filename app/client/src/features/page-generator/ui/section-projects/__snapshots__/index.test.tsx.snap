@@ -48,7 +48,7 @@ exports[`Page Genretor/Section Projects shold match snapshot 1`] = `
                   decoding="async"
                   height="1695"
                   loading="lazy"
-                  src="https://cms.shteyn-web.ru/uploads/whitecrow_26b66602d4.webp"
+                  src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
                   style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
                   width="2012"
                 />
@@ -103,7 +103,7 @@ exports[`Page Genretor/Section Projects shold match snapshot 1`] = `
                   decoding="async"
                   height="1695"
                   loading="lazy"
-                  src="https://cms.shteyn-web.ru/uploads/whitecrow_26b66602d4.webp"
+                  src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
                   style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
                   width="2012"
                 />
@@ -230,7 +230,7 @@ exports[`Page Genretor/Section Projects shold match snapshot 1`] = `
                   decoding="async"
                   height="1695"
                   loading="lazy"
-                  src="https://cms.shteyn-web.ru/uploads/whitecrow_26b66602d4.webp"
+                  src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
                   style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
                   width="2012"
                 />
@@ -355,7 +355,7 @@ exports[`Page Genretor/Section Projects shold match snapshot 1`] = `
                   decoding="async"
                   height="1695"
                   loading="lazy"
-                  src="https://cms.shteyn-web.ru/uploads/whitecrow_26b66602d4.webp"
+                  src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
                   style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
                   width="2012"
                 />
@@ -438,7 +438,7 @@ exports[`Page Genretor/Section Projects shold match snapshot 1`] = `
                 decoding="async"
                 height="1695"
                 loading="lazy"
-                src="https://cms.shteyn-web.ru/uploads/whitecrow_26b66602d4.webp"
+                src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
                 style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
                 width="2012"
               />
@@ -493,7 +493,7 @@ exports[`Page Genretor/Section Projects shold match snapshot 1`] = `
                 decoding="async"
                 height="1695"
                 loading="lazy"
-                src="https://cms.shteyn-web.ru/uploads/whitecrow_26b66602d4.webp"
+                src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
                 style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
                 width="2012"
               />
@@ -620,7 +620,7 @@ exports[`Page Genretor/Section Projects shold match snapshot 1`] = `
                 decoding="async"
                 height="1695"
                 loading="lazy"
-                src="https://cms.shteyn-web.ru/uploads/whitecrow_26b66602d4.webp"
+                src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
                 style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
                 width="2012"
               />
@@ -745,7 +745,7 @@ exports[`Page Genretor/Section Projects shold match snapshot 1`] = `
                 decoding="async"
                 height="1695"
                 loading="lazy"
-                src="https://cms.shteyn-web.ru/uploads/whitecrow_26b66602d4.webp"
+                src="http://localhost:1337/uploads/whitecrow_26b66602d4.webp"
                 style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
                 width="2012"
               />
